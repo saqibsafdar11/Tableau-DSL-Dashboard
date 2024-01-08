@@ -1,4 +1,4 @@
-## Tableau Dashboard to Evaluate Digital SKills Workshops
+## Tableau Dashboard to Evaluate Digital Skills Lab Workshops
 
 Summary:
 
@@ -13,10 +13,9 @@ b) Data for from Oracle database which contains all the booking data
 
 ![Tableau Prep Diagram](/Tableauprepdiag.jpg)
 
-Filtes: only bookings from 2018 and above were taken: YEAR([E_SESSION_START_TIME]) >= 2018
+#Filters, Cleaning and Joining
+Only bookings from 2018 and above were taken: YEAR([E_SESSION_START_TIME]) >= 2018
 Clean: Pre-fix were added to each table e.g. e_session or event_
-Key 
-Pre-fix were
 
 Term dates were defined as:
 IF MONTH([Start Date])>=9 AND MONTH([Start Date])<=12 THEN 'michaelmas term'
@@ -64,6 +63,7 @@ Owing to some issues with tableau server, an ALteryx solution is also being cons
 Another option will be run an SQL code to process the data flow. 
 
 The following Tableau dashboard is based on randomised/incomplete data 
+
 
 
 ![Tableau Dashboard](/Dashboard.png)
