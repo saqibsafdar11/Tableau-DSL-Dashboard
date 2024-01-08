@@ -1,0 +1,1742 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.EVENT.ID,
+	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,
+	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,
+	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,
+	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,
+	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,
+	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,
+	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,
+	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,
+	TRAINING_SYSTEM_OWNER.EVENT.VERSION 
+from TRAINING_SYSTEM_OWNER.EVENT</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="DEFAULT_EVENT_BOOKING_STATUS" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="V_WString" />
+            <Field name="COURSE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="DISPLAY_ON_WEB_FROM" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="DateTime" />
+            <Field name="ALLOW_WAITING_LIST" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int16" />
+            <Field name="ATTENDANCE_COMPLETED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int16" />
+            <Field name="MAX_BOOKINGS" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="MIN_BOOKINGS" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="BOOKING_CLOSING_DATE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="DateTime" />
+            <Field name="VERSION" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\saqib\AppData\Local\Temp\Engine_63184_a2cc78033d7a2743a90418a945592c71_\Engine_63184_a57fa15d5f46234e864dcba683562a66~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="246" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Variables selected before import of Event, and prefix Event_ added to all field names using Dynamic Rename. Data cached so only new data will come through</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,
+	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,
+	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID 
+from TRAINING_SYSTEM_OWNER.E_SESSIONS</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="START_TIME" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="DateTime" />
+            <Field name="EVENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="Int64" />
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>START_TIME</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-12-20 14:40:13</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2018-01-01</Operand>
+              <StartDate>2023-12-20 14:40:13</StartDate>
+              <EndDate>2023-12-20 14:40:13</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToDate([START_TIME]) &gt;= "2018-01-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="426" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="START_TIME" />
+            <Field name="EVENT_ID" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>SESSION_</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SESSION_START_TIME" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="DateTime" />
+            <Field name="SESSION_EVENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="Int64" />
+            <Field description="PrimaryKey" name="SESSION_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.E_SESSIONS.START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.E_SESSIONS.ID &#xA;from TRAINING_SYSTEM_OWNER.E_SESSIONS" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Event_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="SESSION_EVENT_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_SESSION_EVENT_ID" selected="True" rename="SESSION_ID" input="Right_" />
+                <SelectField field="Right_SESSION_ID" selected="True" rename="Right_SESSION_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="294" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>DISPLAY_ON_WEB_FROM</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-12-20 14:49:40</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2018-01-01</Operand>
+              <StartDate>2023-12-20 14:49:40</StartDate>
+              <EndDate>2023-12-20 14:49:40</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToDate([DISPLAY_ON_WEB_FROM]) &gt;= "2018-01-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="414" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="DEFAULT_EVENT_BOOKING_STATUS" />
+            <Field name="COURSE_ID" />
+            <Field name="DISPLAY_ON_WEB_FROM" />
+            <Field name="ALLOW_WAITING_LIST" />
+            <Field name="ATTENDANCE_COMPLETED" />
+            <Field name="MAX_BOOKINGS" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>Event_</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="Event_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="Event_DEFAULT_EVENT_BOOKING_STATUS" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="V_WString" />
+            <Field name="Event_COURSE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="Event_DISPLAY_ON_WEB_FROM" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="DateTime" />
+            <Field name="Event_ALLOW_WAITING_LIST" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int16" />
+            <Field name="Event_ATTENDANCE_COMPLETED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int16" />
+            <Field name="Event_MAX_BOOKINGS" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="Event_MIN_BOOKINGS" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+            <Field name="Event_BOOKING_CLOSING_DATE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="DateTime" />
+            <Field name="Event_VERSION" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.EVENT.ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DEFAULT_EVENT_BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.COURSE_ID,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.DISPLAY_ON_WEB_FROM,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ALLOW_WAITING_LIST,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.ATTENDANCE_COMPLETED,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MAX_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.MIN_BOOKINGS,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.BOOKING_CLOSING_DATE,&#xA;	TRAINING_SYSTEM_OWNER.EVENT.VERSION &#xA;from TRAINING_SYSTEM_OWNER.EVENT" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.COURSE.ID,
+	TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,
+	TRAINING_SYSTEM_OWNER.COURSE.NAME,
+	TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED 
+from TRAINING_SYSTEM_OWNER.COURSE</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="Int64" />
+            <Field name="PROGRAMME_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="Int64" />
+            <Field name="NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="V_WString" />
+            <Field name="DATE_CREATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA;	TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>DATE_CREATED</Field>
+            <Operands>
+              <PeriodDate>2023-12-20 15:19:33</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2023-12-20 15:19:33</StartDate>
+              <EndDate>2023-12-20 15:19:33</EndDate>
+              <Operand>2018-01-01</Operand>
+              <DateType>fixed</DateType>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ToDate([DATE_CREATED]) &gt;= "2018-01-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="570" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="PROGRAMME_ID" />
+            <Field name="NAME" />
+            <Field name="DATE_CREATED" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>COURSE_</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="COURSE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA; TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="Int64" />
+            <Field name="COURSE_PROGRAMME_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA; TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="Int64" />
+            <Field name="COURSE_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA; TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="V_WString" />
+            <Field name="COURSE_DATE_CREATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.COURSE.ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.PROGRAMME_ID,&#xA; TRAINING_SYSTEM_OWNER.COURSE.NAME,&#xA; TRAINING_SYSTEM_OWNER.COURSE.DATE_CREATED &#xA;from TRAINING_SYSTEM_OWNER.COURSE" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="666" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Event_COURSE_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="COURSE_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="738" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([COURSE_NAME],"Tableau")
+OR
+Contains([COURSE_NAME],"excel")
+OR
+Contains([COURSE_NAME],"word")
+OR
+Contains([COURSE_NAME],"python")
+OR
+Contains([COURSE_NAME],"stata")
+OR
+Contains([COURSE_NAME],"SPSS")
+OR
+Contains([COURSE_NAME],"R ")
+OR
+Contains([COURSE_NAME],"powerbi")
+OR
+Contains([COURSE_NAME],"powerpoint")
+OR
+Contains([COURSE_NAME],"data")
+OR
+Contains([COURSE_NAME],"specialist")
+OR
+Contains([COURSE_NAME],"events")
+OR
+Contains([COURSE_NAME],"SQL")
+OR
+Contains([COURSE_NAME],"MISDI")
+OR
+Contains([COURSE_NAME],"machine learning")
+OR
+Contains([COURSE_NAME],"outlook")
+OR
+Contains([COURSE_NAME],"vba")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([COURSE_NAME],"Tableau")
+OR
+Contains([COURSE_NAME],"excel")
+OR
+Contains...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="978" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,
+	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,
+	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME 
+from TRAINING_SYSTEM_OWNER.TRAINING_DEPT</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID1" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="Int64" />
+            <Field name="EMAIL" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="V_WString" />
+            <Field name="NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1122" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>NAME</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-12-20 16:41:48</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>digital skills</Operand>
+              <StartDate>2023-12-20 16:41:48</StartDate>
+              <EndDate>2023-12-20 16:41:48</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([NAME],"digital skills")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1290" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID1" />
+            <Field name="EMAIL" />
+            <Field name="NAME" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>TRAINING_DEPT</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TRAINING_DEPTID1" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="Int64" />
+            <Field name="TRAINING_DEPTEMAIL" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="V_WString" />
+            <Field name="TRAINING_DEPTNAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.TRAINING_DEPT.ID as ID1,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.EMAIL,&#xA; TRAINING_SYSTEM_OWNER.TRAINING_DEPT.NAME &#xA;from TRAINING_SYSTEM_OWNER.TRAINING_DEPT" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="978" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="COURSE_PROGRAMME_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="666" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,
+	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,
+	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,
+	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED 
+from TRAINING_SYSTEM_OWNER.PROGRAMME</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int64" />
+            <Field name="TRAINING_DEPARTMENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int64" />
+            <Field name="NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="V_WString" />
+            <Field name="ARCHIVED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="750" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Remove</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="TRAINING_DEPARTMENT_ID" />
+            <Field name="NAME" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <RemovePrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>Programme_</Text>
+            <OnError>Warn</OnError>
+          </RemovePrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int64" />
+            <Field name="TRAINING_DEPARTMENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int64" />
+            <Field name="NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="V_WString" />
+            <Field name="ARCHIVED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PROGRAMME.ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.TRAINING_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.NAME,&#xA;	TRAINING_SYSTEM_OWNER.PROGRAMME.ARCHIVED &#xA;from TRAINING_SYSTEM_OWNER.PROGRAMME" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="858" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[Contains([NAME],"data")
+OR
+Contains([NAME],"events")
+OR
+Contains([NAME],"productivity")
+OR
+Contains([NAME],"specialist")
+
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([NAME],"data")
+OR
+Contains([NAME],"events")
+OR
+Contains([NAME],"product...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1374" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="TRAINING_DEPTID1" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="TRAINING_DEPARTMENT_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1158" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,
+	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN 
+from TRAINING_SYSTEM_OWNER.BOOKINGS</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="PERSON_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="LSE_ROLE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="STATUS" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="EVENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="OVERALL_ATTENDANCE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+            <Field name="DATE_CREATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="LSE_ROLE_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="LSE_ROLE_LSE_PERSON_ID" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="LSE_ROLE_LSE_DEPARTMENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="LAST_UPDATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="LSE_ROLE_EXPIRY_DATE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="LSE_ROLE_NON_PAYROLL_STAFF" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+            <Field name="WITHDRAWN" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA;	TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1350" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="PERSON_ID" />
+            <Field name="LSE_ROLE_ID" />
+            <Field name="STATUS" />
+            <Field name="EVENT_ID" />
+            <Field name="OVERALL_ATTENDANCE" />
+            <Field name="DATE_CREATED" />
+            <Field name="LSE_ROLE_NAME" />
+            <Field name="LSE_ROLE_LSE_PERSON_ID" />
+            <Field name="LSE_ROLE_LSE_DEPARTMENT_ID" />
+            <Field name="LAST_UPDATED" />
+            <Field name="LSE_ROLE_EXPIRY_DATE" />
+            <Field name="LSE_ROLE_NON_PAYROLL_STAFF" />
+            <Field name="WITHDRAWN" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>BOOKING_</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="BOOKING_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="BOOKING_PERSON_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="BOOKING_LSE_ROLE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="BOOKING_STATUS" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="BOOKING_EVENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="BOOKING_OVERALL_ATTENDANCE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+            <Field name="BOOKING_DATE_CREATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="BOOKING_LSE_ROLE_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="BOOKING_LSE_ROLE_LSE_PERSON_ID" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="V_WString" />
+            <Field name="BOOKING_LSE_ROLE_LSE_DEPARTMENT_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int64" />
+            <Field name="BOOKING_LAST_UPDATED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="BOOKING_LSE_ROLE_EXPIRY_DATE" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="DateTime" />
+            <Field name="BOOKING_LSE_ROLE_NON_PAYROLL_STAFF" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+            <Field name="BOOKING_WITHDRAWN" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.BOOKINGS.ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.STATUS,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.EVENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.OVERALL_ATTENDANCE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.DATE_CREATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NAME,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_PERSON_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_LSE_DEPARTMENT_ID,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LAST_UPDATED,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_EXPIRY_DATE,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.LSE_ROLE_NON_PAYROLL_STAFF,&#xA; TRAINING_SYSTEM_OWNER.BOOKINGS.WITHDRAWN &#xA;from TRAINING_SYSTEM_OWNER.BOOKINGS" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1482" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Event_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BOOKING_EVENT_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1506" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.PERSON.ID,
+	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,
+	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,
+	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,
+	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME 
+from TRAINING_SYSTEM_OWNER.PERSON</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="Int64" />
+            <Field name="EMAIL" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="LSE_PERSON_ID" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="LAST_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="FIRST_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1614" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Remove</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="EMAIL" />
+            <Field name="LSE_PERSON_ID" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <RemovePrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>PERSON_</Text>
+            <OnError>Warn</OnError>
+          </RemovePrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="Int64" />
+            <Field name="EMAIL" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="LSE_PERSON_ID" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="LAST_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+            <Field name="FIRST_NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.PERSON.ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LSE_PERSON_ID,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.LAST_NAME,&#xA;	TRAINING_SYSTEM_OWNER.PERSON.FIRST_NAME &#xA;from TRAINING_SYSTEM_OWNER.PERSON" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1734" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LSE_PERSON_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BOOKING_PERSON_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_LSE_PERSON_ID" selected="True" input="Left_" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1758" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.NAME,
+	TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.ID 
+from TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.NAME,&#xA;	TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.ID &#xA;from TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT" type="V_WString" />
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.NAME,&#xA;	TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.ID &#xA;from TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2010" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left" />
+          <JoinInfo connection="Right" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1914" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="NAME" />
+            <Field name="ID" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>LSE_DEPARTMENT</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LSE_DEPARTMENTNAME" size="255" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.NAME,&#xA;	TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.ID &#xA;from TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT" type="V_WString" />
+            <Field description="PrimaryKey" name="LSE_DEPARTMENTID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.NAME,&#xA;	TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT.ID &#xA;from TRAINING_SYSTEM_OWNER.LSE_DEPARTMENT" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1974" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,
+	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,
+	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,
+	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID 
+from TRAINING_SYSTEM_OWNER.ATTENDANCE</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+            <Field name="ATTENDED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int16" />
+            <Field name="EVENT_SESSION_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+            <Field name="EVENT_BOOKING_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="2118" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Add</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="ID" />
+            <Field name="ATTENDED" />
+            <Field name="EVENT_SESSION_ID" />
+            <Field name="EVENT_BOOKING_ID" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <AddPrefixSuffix>
+            <Type>Prefix</Type>
+            <Text>ATTENDANCE_</Text>
+          </AddPrefixSuffix>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ATTENDANCE_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+            <Field name="ATTENDANCE_ATTENDED" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int16" />
+            <Field name="ATTENDANCE_EVENT_SESSION_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+            <Field name="ATTENDANCE_EVENT_BOOKING_ID" source="File: oci:TAB_TDS_USER/__EncPwd1__@missys-oracle-listener-prod-0:1521/MAXIMUS_TABLEAU|||select TRAINING_SYSTEM_OWNER.ATTENDANCE.ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.ATTENDED,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_SESSION_ID,&#xA;	TRAINING_SYSTEM_OWNER.ATTENDANCE.EVENT_BOOKING_ID &#xA;from TRAINING_SYSTEM_OWNER.ATTENDANCE" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1386" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StartDate" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="EndDate" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="IPAddress" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Progress" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Duration (in seconds)" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Finished" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecordedDate" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="ResponseId" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientLastName" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientFirstName" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientEmail" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="ExternalReference" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="LocationLatitude" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="LocationLongitude" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="DistributionChannel" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="UserLanguage" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="02" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="03" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="03a" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="04" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="04a" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="05" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="06" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="06a" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="06b" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="07" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="07a" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="08" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="08_10_TEXT" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="9" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="9a" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="SurveyID" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="coursename" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="topic" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="cohort" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="version" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="link" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="prog" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="link2" size="254" source="File: C:\Users\saqib\Downloads\2023_24+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1578" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StartDate" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="EndDate" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="IPAddress" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="Progress" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="Duration (in seconds)" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="Finished" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="RecordedDate" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="ResponseId" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="RecipientLastName" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="RecipientFirstName" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="RecipientEmail" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="ExternalReference" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="LocationLatitude" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="LocationLongitude" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="DistributionChannel" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="UserLanguage" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="02" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="03" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="03a" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="04" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="04a" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="05" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="05a" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="05b" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="06" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="06a" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="07" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="08" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="09" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="09_10_TEXT" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="10" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="10a" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="SurveyID" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="coursename" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="topic" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="cohort" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="version" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="link" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="prog" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+            <Field name="link2" size="254" source="File: C:\Users\saqib\Downloads\2022_23+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.00.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="990" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StartDate" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="EndDate" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="IPAddress" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Progress" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Duration (in seconds)" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="Finished" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecordedDate" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="ResponseId" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientLastName" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientFirstName" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="RecipientEmail" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="ExternalReference" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="LocationLatitude" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="LocationLongitude" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="DistributionChannel" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="UserLanguage" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="02" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="03" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="03a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="04" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="04a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="05" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="05a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="05b" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="06" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="06a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="07" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="08" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="09" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="09_10_TEXT" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="10" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="10a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="11a" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="11b" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="11c" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="coursename" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="topic" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="cohort" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="version" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="link" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="prog" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+            <Field name="link2" size="254" source="File: C:\Users\saqib\Downloads\2021_22+Digital+Skills+Lab+Workshop+Evaluation_28+November+2023_14.01.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1146" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="StartDate" selected="False" />
+            <Field name="EndDate" selected="False" />
+            <Field name="Status" selected="False" />
+            <Field name="IPAddress" selected="False" />
+            <Field name="Progress" selected="False" />
+            <Field name="Duration (in seconds)" selected="False" />
+            <Field name="Finished" selected="False" />
+            <Field name="RecordedDate" selected="False" />
+            <Field name="ResponseId" selected="False" />
+            <Field name="RecipientLastName" selected="False" />
+            <Field name="RecipientFirstName" selected="False" />
+            <Field name="RecipientEmail" selected="False" />
+            <Field name="ExternalReference" selected="False" />
+            <Field name="LocationLatitude" selected="False" />
+            <Field name="LocationLongitude" selected="False" />
+            <Field name="DistributionChannel" selected="False" />
+            <Field name="UserLanguage" selected="False" />
+            <Field name="01" selected="False" />
+            <Field name="02" selected="False" />
+            <Field name="03" selected="False" />
+            <Field name="03a" selected="False" />
+            <Field name="04" selected="False" />
+            <Field name="04a" selected="False" />
+            <Field name="05" selected="False" />
+            <Field name="05a" selected="False" />
+            <Field name="05b" selected="False" />
+            <Field name="06" selected="False" />
+            <Field name="06a" selected="False" />
+            <Field name="07" selected="False" />
+            <Field name="08" selected="False" />
+            <Field name="09" selected="False" />
+            <Field name="09_10_TEXT" selected="False" />
+            <Field name="10" selected="False" />
+            <Field name="10a" selected="False" />
+            <Field name="11a" selected="False" />
+            <Field name="11b" selected="False" />
+            <Field name="11c" selected="False" />
+            <Field name="coursename" selected="False" />
+            <Field name="topic" selected="False" />
+            <Field name="cohort" selected="False" />
+            <Field name="version" selected="False" />
+            <Field name="link" selected="False" />
+            <Field name="prog" selected="False" />
+            <Field name="link2" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <Expression />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="17">aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,
+	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE 
+from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:a
+Query=select TRAINING_SYSTEM_OWNER...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMAIL" size="255" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="V_WString" />
+            <Field name="PROGRAMME" size="255" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="V_WString" />
+            <Field name="EVENT_ID" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="Int64" />
+            <Field name="SESSION_START_TIME" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="DateTime" />
+            <Field name="BOOKING_ROLE" size="255" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="V_WString" />
+            <Field name="BOOKING_STATUS" size="255" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="V_WString" />
+            <Field name="ATTENDANCE" size="12" source="File: aka:a|||select TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EMAIL,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.PROGRAMME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.EVENT_ID,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.SESSION_START_TIME,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_ROLE,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.BOOKING_STATUS,&#xA;	TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT.ATTENDANCE &#xA;from TRAINING_SYSTEM_OWNER.V_SESSION_DETAILS_RPT" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2142" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="14" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="20" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="27" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Right" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Right" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="42" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Targets" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AlteryxflowforDSLdashboard</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="59be4183-0adc-4fbc-8d1a-90104274ff58" />
+      <Telemetry>
+        <PreviousWorkflowId value="ad9de78b-78a7-45c2-868e-bfab2e245ecf" />
+        <OriginWorkflowId value="04410839-241b-49a9-af3b-61414af034d4" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
