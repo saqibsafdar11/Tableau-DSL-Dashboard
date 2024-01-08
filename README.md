@@ -66,7 +66,7 @@ The following Tableau dashboard is based on randomised/incomplete data
 
 
 
-![Tableau Dashboard](/Dashboard.png)
+![Tableau Dashboard](/Tableaudashboard.jpg)
 
 
 
