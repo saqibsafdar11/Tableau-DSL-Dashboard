@@ -4,8 +4,11 @@ Summary:
 
 In this project Tableau prep is used to design and implement the entity dependent diagram below
 
-![Database ER Diagram](/C:/Users/saqib/OneDrive - University of Edinburgh/Documents/GitHub/Tableau-DSL-Dashboard/Database ER diagram (crow's foot).jpeg)
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/cd93b7e4-ece8-4868-8101-f7a868b86377" id="o593kzW4pB2B"></iframe></div>
 
+
+
+https://lucid.app/documents/view/cd93b7e4-ece8-4868-8101-f7a868b86377
 
 Data was filtered, joined and cleaned. Two different databse sources were joined
 a) Data for Qualtrics which containes student survey data and their feedback on having attended workshops. Each academeic year had to be combined with the another. 
