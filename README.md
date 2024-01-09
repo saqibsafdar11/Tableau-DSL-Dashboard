@@ -4,7 +4,8 @@ Summary:
 
 In this project Tableau prep is used to design and implement the entity dependent diagram below
 
-![Database ER Diagram](/Database ER diagram (crow's foot).jpeg)
+![Database ER Diagram](/C:/Users/saqib/OneDrive - University of Edinburgh/Documents/GitHub/Tableau-DSL-Dashboard/Database ER diagram (crow's foot).jpeg)
+
 
 Data was filtered, joined and cleaned. Two different databse sources were joined
 a) Data for Qualtrics which containes student survey data and their feedback on having attended workshops. Each academeic year had to be combined with the another. 
@@ -67,6 +68,8 @@ The following Tableau dashboard is based on randomised/incomplete data
 
 
 ![Tableau Dashboard](/Tableaudashboard.jpg)
+
+![Database ER Diagram](/C:/Users/saqib/OneDrive - University of Edinburgh/Documents/GitHub/Tableau-DSL-Dashboard/Database ER diagram (crow's foot).jpeg)
 
 
 
