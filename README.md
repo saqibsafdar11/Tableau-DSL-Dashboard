@@ -69,7 +69,7 @@ The following Tableau dashboard is based on randomised/incomplete data
 
 ![Tableau Dashboard](/Tableaudashboard.jpg)
 
-![Database ER Diagram](/C:/Users/saqib/OneDrive - University of Edinburgh/Documents/GitHub/Tableau-DSL-Dashboard/Database ER diagram (crow's foot).jpeg)
+
 
 
 
