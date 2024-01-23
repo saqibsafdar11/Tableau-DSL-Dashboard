@@ -31,7 +31,8 @@ The following Tableau dashboard is based on randomised/incomplete data
 
 The issue was resolved by re-designing the Tableau flow and using a minimalist approach; taking only the fields which are essentially needed.
 
-![Tableau Dashboard](/Tableau prep 2.png)
+![Tableau Dashboard](/Tableau%20prep%202.png)
+
 
 
 Tableau Prep Calculations
