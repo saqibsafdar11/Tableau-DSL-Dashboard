@@ -14,60 +14,119 @@ b) Data for from Oracle database which contains all the booking data
 
 ![Tableau Prep Diagram](/Tableauprepdiag.jpg)
 
-#Filters, Cleaning and Joining
-Only bookings from 2018 and above were taken: YEAR([E_SESSION_START_TIME]) >= 2018
-Clean: Pre-fix were added to each table e.g. e_session or event_
-
-Term dates were defined as:
-IF MONTH([Start Date])>=9 AND MONTH([Start Date])<=12 THEN 'michaelmas term'
-ELSEIF MONTH([Start Date])>=1 and MONTH([Start Date])<=4 then 'lent term'
-ELSEIF month([Start Date])>=5 and MONTH([Start Date])<=7 then 'summer term'
-END
-
-Coursname cleaned:
-REGEXP_REPLACE([Coursename], "[^A-Z a-z 0-9 :]+", " ")
-
-Lowercase to allow joining with other data sources: LOWER([course name cleaned])
-
-Coursename arranged into programmes:
-IF CONTAINS([course name cleaned], 'presessional') 
-OR CONTAINS([course name cleaned], 'machine') 
-OR CONTAINS([course name cleaned], 'methodology') 
-OR CONTAINS([course name cleaned], 'python for accounting') 
-OR CONTAINS([course name cleaned], 'python for finance') 
-THEN 'data science academic support'
 
 
-ELSEIF CONTAINS([course name cleaned], 'python') 
-OR CONTAINS([course name cleaned], 'r fundamentals') 
-OR CONTAINS([course name cleaned], 'r data ') 
-OR CONTAINS([course name cleaned], 'tableau') 
-OR CONTAINS([course name cleaned], 'working with tabular') 
-OR CONTAINS([course name cleaned], 'sql') 
-THEN 'data science tools and coding'
-
-Academic Year defined as
-IF LEN([year]) = 7 THEN
-    LEFT([year], 4) + "-" + "20" + RIGHT([year], 2)
-ELSE
-    [year]
-END
-
-Key joinin the survey data and booking data defined as 
-[Programme name]+' '+[Academic Year Survey]+' '+[Term]
-
-Owing to some issues with tableau server, an ALteryx solution is also being considered. 
+Due to some of the load put on the Tableau server, an ALteryx solution was also considered. 
 
 
 ![Alteryx Diagram](/Alteryxdiagram.jpg)
 
-Another option will be run an SQL code to process the data flow. 
-
+Tableau Iteration 1.0
 The following Tableau dashboard is based on randomised/incomplete data 
 
 
 
 ![Tableau Dashboard](/Tableaudashboard.jpg)
+
+
+The issue was resolved by re-designing the Tableau flow and using a minimalist approach; taking only the fields which are essentially needed.
+
+![Tableau Dashboard](/Tableaudashboard.jpg)
+
+
+Tableau Prep Calculations
+
+Term
+
+IF MONTH([SESSION_SESSION_START_TIME])>=9 AND MONTH([SESSION_SESSION_START_TIME])<=12 THEN 'Autumn Term'
+ELSEIF MONTH([SESSION_SESSION_START_TIME])>=1 AND MONTH([SESSION_SESSION_START_TIME])<=4 THEN 'Spring Term'
+ELSEIF MONTH([SESSION_SESSION_START_TIME])>=5 AND MONTH([SESSION_SESSION_START_TIME])<=8 THEN 'Summer Term'
+END
+
+Academic Year
+
+IF DATETRUNC('month', [SESSION_SESSION_START_TIME]) >= DATE('2022-09-01') 
+   AND DATETRUNC('month', [SESSION_SESSION_START_TIME]) <= DATE('2023-08-31') 
+THEN '2022-2023'
+ELSEIF DATETRUNC('month', [SESSION_SESSION_START_TIME]) >= DATE('2023-09-01') 
+   AND DATETRUNC('month', [SESSION_SESSION_START_TIME]) <= DATE('2024-08-31') 
+THEN '2023-2024'
+END
+
+
+
+Calculations in Tableau
+
+#attended
+
+COUNTD (IF [SESSION_ATTENDANCE]='Attended' AND [SESSION_BOOKING_STATUS] = 'CONFIRMED'
+THEN STR([BOOKING_EVENT_ID])+STR([BOOKING_PERSON_ID])
+END)
+
+#attended Unrecorded
+
+COUNTD( IF (([BOOKING_STATUS]='CONFIRMED')AND([SESSION_ATTENDANCE]='Unrecorded')) 
+THEN STR([EVENT_ID])+STR([BOOKING_PERSON_ID])
+END)
+
+#average attendance / session
+
+[#attended]/SUM([Distinct Session Details])
+
+Available places
+
+{ FIXED [EVENT_ID]: MAX([EVENT_MAX_BOOKINGS])}
+
+Distinct Session Details
+
+{ FIXED [EVENT_ID], [SESSION_SESSION_START_TIME]:COUNTD([EVENT_ID])}
+
+Individual students trained
+
+COUNTD (IF [SESSION_ATTENDANCE]='Attended' THEN [BOOKING_PERSON_ID] END)
+
+No Show
+
+[Not Attended]/ [Places booked ]
+
+Not Attended
+
+COUNTD( IF (([BOOKING_STATUS]='CONFIRMED')AND([SESSION_ATTENDANCE]='Not Attended')) 
+THEN STR([EVENT_ID])+STR([BOOKING_PERSON_ID] )
+END)
+
+Placed booked
+
+COUNTD(IF [SESSION_PROGRAMME]='Workshops'
+then [Workshop place check]
+ELSE [Places Booked Check]
+END)
+
+
+Definitions used in Tableau
+
+Places booked Check
+
+{FIXED [EVENT_ID], [BOOKING_PERSON_ID],[SESSION_SESSION_START_TIME]: MIN(
+IF [BOOKING_STATUS]='CONFIRMED' THEN STR([EVENT_ID])+ STR([BOOKING_PERSON_ID])+STR([SESSION_SESSION_START_TIME])
+END)}
+
+Programme breakdown 
+
+IF ([SESSION_PROGRAMME]='Specialist research tools'
+ OR [SESSION_PROGRAMME]='Data science tools and coding'
+ OR [SESSION_PROGRAMME] ='Productivity tools' 
+ OR  [SESSION_PROGRAMME]='Productivity tools for academic support'
+ OR [SESSION_PROGRAMME]='Productivity tools for staff'  )
+ THEN
+ 'Workshops'
+ELSEIF [SESSION_PROGRAMME]='Events' THEN
+'Events' 
+ELSEIF ([SESSION_PROGRAMME]='Data science academic support' 
+OR  [SESSION_PROGRAMME]='Data science tools for staff')
+THEN 'Tailored'
+ELSE 'DSL Supported'
+END
 
 
 
