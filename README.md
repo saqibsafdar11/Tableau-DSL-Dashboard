@@ -47,8 +47,17 @@ The final iteration was developed as the following
 
 https://public.tableau.com/views/Story2_3_17104249025950/Story1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
+Some key features include:
+- Academic terms coded to allow for different dataes each year
+- Headlines for key figures in which the table/graph can be used to filter too
+- Addition of filter based on 'tools' e.g. Python, R, Excel
+- Updated course list of Event Type, Session and Course which was coded 
+- Breakdown of each area
+- Demographics by course/dept to allow view of which courses are attended by specific department and learner group
+- Student check - to see names of students, times of sesssions etc can be checked (not included for confidentiality basis)
 
-The calculations used in Tableau Prep and Tableau Dashboard can be seen in the file calculations.txt 
+
+The codes used in Tableau Prep and Tableau Dashboard can be seen in the file calculations.txt 
 
 
    
