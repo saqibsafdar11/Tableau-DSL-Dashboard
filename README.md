@@ -40,7 +40,8 @@ The Tableau flow was further refined
 
 ![alt text](image-1.png)   
 
-![alt text](image-2.png)
+![alt text](image-3.png)
+
 
 The final iteration was developed as the following
 
