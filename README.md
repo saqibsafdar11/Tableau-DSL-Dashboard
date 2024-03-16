@@ -130,6 +130,21 @@ ELSE 'DSL Supported'
 END
 
 
+The Tableau flow was further refined 
+
+![alt text](image-1.png)   
+
+![alt text](image-2.png)
+
+The final iteration was developed as the following
+
+https://public.tableau.com/views/Story2_3_17104249025950/Story1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+
+
+<iframe src="https://public.tableau.com/views/Story2_3_17104249025950/Story1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" width="800" height="600" frameborder="0"></iframe>
+
+
+   
 
 
 
