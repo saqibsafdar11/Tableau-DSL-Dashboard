@@ -1,0 +1,283 @@
+
+
+Tableau Prep Calculations
+
+Term
+
+IF MONTH([SESSION_SESSION_START_TIME])>=9 AND MONTH([SESSION_SESSION_START_TIME])<=12 THEN 'Autumn Term'
+ELSEIF MONTH([SESSION_SESSION_START_TIME])>=1 AND MONTH([SESSION_SESSION_START_TIME])<=4 THEN 'Spring Term'
+ELSEIF MONTH([SESSION_SESSION_START_TIME])>=5 AND MONTH([SESSION_SESSION_START_TIME])<=8 THEN 'Summer Term'
+END
+
+Filters
+
+YEAR([SESSION_SESSION_START_TIME])>=2022
+
+[SESSION_BOOKING_STATUS]='CONFIRMED'
+
+Attendance = Attended or Not Attended
+
+
+
+Academic Year 
+
+IF DATETRUNC('month', [SESSION_SESSION_START_TIME]) >= DATE('2022-09-01') 
+   AND DATETRUNC('month', [SESSION_SESSION_START_TIME]) <= DATE('2023-08-31') 
+THEN '2022-2023'
+ELSEIF DATETRUNC('month', [SESSION_SESSION_START_TIME]) >= DATE('2023-09-01') 
+   AND DATETRUNC('month', [SESSION_SESSION_START_TIME]) <= DATE('2024-08-31') 
+THEN '2023-2024'
+END
+
+Term
+
+ 
+ 
+IF [SESSION_SESSION_START_TIME] >= DATE('2023-09-25') AND [SESSION_SESSION_START_TIME] <= DATE('2023-12-08') 
+OR 
+[SESSION_SESSION_START_TIME] >= DATE('2022-09-26') AND [SESSION_SESSION_START_TIME] <= DATE('2022-12-09') 
+THEN 'Autumn Term'
+ 
+ELSEIF [SESSION_SESSION_START_TIME] >= DATE('2024-01-16') AND [SESSION_SESSION_START_TIME] <= DATE('2024-03-28') 
+OR
+[SESSION_SESSION_START_TIME] >= DATE('2023-01-16') AND [SESSION_SESSION_START_TIME] <= DATE('2023-03-31') 
+THEN 'Winter Term'
+ 
+ELSEIF [SESSION_SESSION_START_TIME] >= DATE('2024-04-29') AND [SESSION_SESSION_START_TIME] <= DATE('2024-06-14') 
+OR
+[SESSION_SESSION_START_TIME] >= DATE('2023-05-02') AND [SESSION_SESSION_START_TIME] <= DATE('2023-06-16') 
+THEN 'Spring Term'
+ 
+ELSEIF [SESSION_SESSION_START_TIME] >= DATE('2024-06-15') AND [SESSION_SESSION_START_TIME] <= DATE('2024-08-31') 
+OR
+[SESSION_SESSION_START_TIME] >= DATE('2023-06-17') AND [SESSION_SESSION_START_TIME] <= DATE('2023-08-31') 
+THEN 'Summer Period'
+ 
+ELSE 'Out of Term'
+END
+
+
+
+
+
+
+
+Definitions used in Tableau
+
+Places booked Check
+
+{FIXED [EVENT_ID], [PLAY_REF],[SESSION_SESSION_START_TIME]: MIN(
+IF [SESSION_BOOKING_STATUS]='CONFIRMED' THEN STR([SESSION_EVENT_ID])+ STR([PLAY_REF])+STR([SESSION_SESSION_START_TIME])
+END)}
+
+Workshop place chest
+
+{FIXED [Session],[EVENT_ID], [PLAY_REF],[SESSION_SESSION_START_TIME]: MIN(
+IF [SESSION_BOOKING_STATUS]='CONFIRMED' AND ([Session]='Specialist research tools' OR 
+[Session]='Data science tools and coding' OR
+[Session]='Productivity tools' OR 
+[Session]='Productivity tools for academic support' OR 
+[Session]='Productivity tools for staff')
+THEN STR([SESSION_EVENT_ID])+STR([PLAY_REF])+STR([SESSION_SESSION_START_TIME])
+END)}
+
+Average attendance/session
+
+[Total Attendance]/SUM([Distinct Session Details])
+
+Distinct session details
+
+{ FIXED [EVENT_ID], [SESSION_SESSION_START_TIME]:COUNTD([EVENT_ID])}
+
+Individual Students Trained
+
+(IF [SESSION_ATTENDANCE]='Attended' THEN [PLAY_REF] END)
+
+No Show
+
+[Not Attended]/ [Places booked ]
+
+Not Attended
+
+COUNTD( IF (([SESSION_BOOKING_STATUS]='CONFIRMED')AND([SESSION_ATTENDANCE]='Not Attended')) 
+THEN STR([EVENT_ID])+STR([PLAY_REF] )
+END)
+
+DSL_Sessions
+
+IIF CONTAINS(UPPER([Course]), 'BOOTCAMP') THEN 'Bootcamp Session'
+ 
+ELSEIF[Course] = "DSL Ou(R) Study Groups Drop-in session" OR
+   [Course] = "Python Pre-Sessional Workshops" OR
+   [Course] = "R drop-ins for Methodology students" OR
+   [Course] = "R Pre-Sessional Workshops" OR
+   [Course] = "Specialist research and data science tools one to one support" OR
+   [Course] = "Web Scraping Drop-ins"
+THEN "Data science academic support"
+ 
+ELSEIF  [Course] = "Excel Financial Modelling for Postgraduate Students" OR 
+   [Course] = "Excel Financial Modelling for Undergraduate Students" 
+THEN "Productivity support" 
+ 
+ELSEIF  [Course] = "Dissertation Data Masterclass: Analyse Your Quantitative Data with Excel" OR
+   [Course] = "Dissertation Data Masterclass: Analyse Your Quantitative Data with Excel (online)" OR
+   [Course] = "Dissertation Data Masterclass: Clean Your Quantitative Data with Excel" OR
+   [Course] = "Dissertation Data Masterclass: Clean Your Quantitative Data with Excel (online)" OR
+   [Course] = "Dissertation Data Masterclass: Visualise Your Data with Excel Charts and Graphs" OR
+   [Course] = "Dissertation Data Masterclass: Visualise Your Data with Excel Charts and Graphs (online)" OR
+   [Course] = "Excel for Famine Project PILOT" OR
+   [Course] = "Excel for MG308 Pre-Sessional Workshops" OR
+   [Course] = "Excel for Quantitative Methods" OR
+ 
+   [Course] = "Master’s Dissertation: Discover the Secret Formatting Weapons of Word" OR
+   [Course] = "Master’s Dissertation: Discover the Secret Formatting Weapons of Word (online)"
+THEN "Productivity tools for academic support"
+ 
+ 
+ELSEIF  [Course] = "3 Week Masterclass – Data-Driven Management & Digital Consulting with Celonis Starting 28th June 2023" OR
+   [Course] = "Celonis Masterclass: Data-Driven Management & Digital Consulting" OR
+   [Course] = "Discover Assistive Digital Tools for Study and Revision (Mac)" OR
+   [Course] = "Discover Assistive Digital Tools for Study and Revision (Windows PC)" OR
+   [Course] = "Fairness and Ethics in Artificial Intelligence" OR
+   [Course] = "LSE Optiver Coding Challenge awards and celebration event 2022/23" OR
+   [Course] = "LSE Optiver Coding Challenge awards and celebration event 2023/24" OR
+   [Course] = "Python Coding Challenge Lent Term 2022/23" OR
+   [Course] = "Text Analysis Using R Lecture" OR
+   [Course] = "Thematic Analysis with ResearchAI for Masters students" OR
+   [Course] = "Thematic Analysis with ResearchAI for Researchers"
+THEN "Events Sessions"
+ 
+ELSEIF  [Course] = "Machine Learning with Python for Accounting and Finance 1" OR
+   [Course] = "Machine Learning with Python for Accounting and Finance 2" OR
+   [Course] = "Machine Learning with Python for Accounting and Finance 3" OR
+   [Course] = "MISDI: AI prototyping: Bias, Fairness, and Privacy Track" OR
+   [Course] = "MISDI: Data Analytics and Visualisation Track" OR
+   [Course] = "MISDI: R for Data Visualisation" OR
+   [Course] = "Practical approaches of algorithmic auditing in machine learning using R" OR
+   [Course] = "Python for Accounting 1" OR
+   [Course] = "Python for Accounting 2" OR
+   [Course] = "Python for Accounting 3" OR
+   [Course] = "Python for Finance" OR
+   [Course] = "Python for Finance Day 1: Introduction to Python" OR
+   [Course] = "Python for Finance Day 2: NumPy and Pandas" OR
+   [Course] = "Python for Finance Day 3: Downloading and visualizing stock price data" OR
+   [Course] = "Python for Finance Day 4: Calculating and visualizing returns"
+THEN "Tailored Sessions"
+ 
+ELSEIF  [Course] = "Introduction to LaTeX" OR
+   [Course] = "Report writing with Markdown" OR
+   [Course] = "SPSS 1: Foundations of Data Management" OR
+   [Course] = "SPSS 2: Data Exploration" OR
+   [Course] = "SPSS 3: Introduction to inferential statistics" OR
+   [Course] = "SPSS 4: Regressions in SPSS" OR
+   [Course] = "SPSS Fundamentals Workshop Series" OR
+   [Course] = "Stata Data Cleaning" OR
+   [Course] = "Stata Data Cleaning 3 & 4" OR
+   [Course] = "Stata Data Cleaning 5: Reshaping and Merging data" OR
+   [Course] = "Stata Fundamentals" OR
+   [Course] = "Stata Fundamentals 3 & 4" OR
+   [Course] = "Stata Fundamentals 5: if qualifiers" OR
+   [Course] = "Introduction to QDA Miner and WordStat"
+THEN "Specialist research tools"
+ 
+ELSEIF [Course] = "Python Data Wrangling and Visualisation" OR
+        [Course] = "Python Fundamentals" OR
+        [Course] = "R Data Wrangling and Visualisation workshop series" OR
+        [Course] = "R Fundamentals workshop series" OR
+        [Course] = "SQL 1 - Filtering relevant data" OR
+        [Course] = "SQL 2 – Calculations and aggregation" OR
+        [Course] = "SQL 3 – Grouped aggregation" OR
+        [Course] = "SQL Fundamentals Workshop Series" OR
+        [Course] = "Tableau 1: Introduction to Tableau" OR
+        [Course] = "Tableau 2: Filtering and Sorting" OR
+        [Course] = "Tableau 3: Geographic Data and Relationships" OR
+        [Course] = "Tableau 4: Time Series and Aggregations" OR
+        [Course] = "Tableau Fundamentals workshop series"
+THEN "Data science tools and coding"
+ 
+ELSEIF [Course] = "Excel Data and Visualisations Workshop Series" OR
+        [Course] = "Excel Expert Workshop Series" OR
+        [Course] = "Excel Fundamentals Workshop Series" OR
+        [Course] = "Power BI Fundamentals Workshop Series" OR
+        [Course] = "PowerPoint Creation to Presentation Workshop Series" OR
+        [Course] = "Word 1: Dissertation Timesavers and Troubleshooting"
+THEN "Productivity Tools"
+ 
+ELSEIF  [Course] = "Py-Starters: An Introduction to Programming with Python" OR
+   [Course] = "Master Excel Shortcuts for a Career in Finance"
+THEN "Summer school sessions"
+ 
+ELSEIF [Course] = "Outlook - organising inbox (online)"
+THEN "Productivity Tools for Staff"
+ 
+ELSE "Other Sessions" // This will assign courses that do not match any of the above conditions to 'Other Sessions'.
+ 
+ 
+// Assuming there is an existing [Session] field to retain other session names
+END
+
+DSL_Event Type
+
+IF [DSL Sessions] = 'Data science academic support' OR
+   [DSL Sessions] = 'Productivity support' OR
+   [DSL Sessions] = 'Productivity tools for academic support'
+THEN 'Academic Support'
+ 
+ELSEIF [DSL Sessions] = 'Events Sessions' 
+THEN 'Events'
+ 
+ELSEIF [DSL Sessions] = 'Tailored Sessions' 
+THEN 'Tailored'
+ 
+ELSEIF [DSL Sessions] = 'Summer school sessions' 
+THEN 'Summer school'
+ 
+ELSEIF [DSL Sessions] = 'Specialist research tools' OR 
+       [DSL Sessions] = 'Data science tools and coding' OR 
+       [DSL Sessions] = 'Productivity Tools' OR 
+       [DSL Sessions] = 'Productivity Tools for Staff' 
+THEN 'Workshops'
+ 
+ELSEIF [DSL Sessions] = 'Bootcamp Session' 
+THEN 'Bootcamp'
+ 
+//ELSE [DSL Sessions] // Include an ELSE clause to handle cases where none of the conditions are met
+END
+
+Tools
+
+IF CONTAINS(UPPER([Course]), 'PYTHON') THEN 'Python'
+ 
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'EXCEL') THEN 'Excel'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'TABLEAU') THEN 'Tableau'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'LATEX') THEN 'Latex'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'STATA') THEN 'Stata'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'SPSS') THEN 'SPSS'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'VBA') THEN 'VBA'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'SQL') THEN 'SQL'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'WORD') THEN 'Word'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'POWERPOINT') THEN 'PPT'
+ 
+ELSEIF CONTAINS(UPPER([Course]), 'POWERBI') THEN 'PowerBI'
+ 
+ELSEIF CONTAINS([Course], ' R ') OR RIGHT([Course], 2) = ' R' OR LEFT([Course], 2) = 'R ' THEN 'R'
+ELSE NULL 
+ 
+END
+
+
+
+
+
+
+
+
