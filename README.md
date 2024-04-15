@@ -1,9 +1,12 @@
 ## Tableau Dashboard to Evaluate Digital Skills Lab Workshops
 
 Summary:
+The following dashboard (of a randomised data sample) was developed to evaluate the Digital Skills Lab workshops at LSE. 
 
-In this project Tableau prep is used to design and implement the entity dependent diagram below
+https://public.tableau.com/views/DSLDashboard/Story1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
+
+In this project Tableau prep was used to design and implement the entity dependent diagram below
 https://lucid.app/documents/view/cd93b7e4-ece8-4868-8101-f7a868b86377
 
 
@@ -45,7 +48,9 @@ The Tableau flow was further refined
 
 The final iteration was developed as the following
 
-https://public.tableau.com/views/Story2_3_17104249025950/Story1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+
+https://public.tableau.com/views/DSLDashboard/Story1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
+
 
 Some key features include:
 - Academic terms coded to allow for different dataes each year
